@@ -1,0 +1,17 @@
+		
+//		PostgresDBConnection postgresDBConnectionObj = new PostgresDBConnection(readPropertyFileObj.getPostgresUrl(), readPropertyFileObj.getPostgresDbname(),
+//																readPropertyFileObj.getPostgresUserName(), readPropertyFileObj.getPostgresPassword());
+//		
+//		Connection connection = postgresDBConnectionObj.getConnection();
+//		
+//		if (connection != null) {
+//			System.out.println("You made it, take control your database now!");
+//			Statement st = connection.createStatement();
+//			ResultSet rs = st.executeQuery("select * from test_table");
+//			while(rs.next()){
+//				System.out.println(rs.getInt("id"));
+//				System.out.println(rs.getString("name"));
+//			}
+//		} else {
+//			System.out.println("Failed to make connection!");
+//		}
